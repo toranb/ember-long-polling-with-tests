@@ -16,7 +16,8 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    DEFAULT_POLL_INTERVAL: 3000
   };
 
   if (environment === 'development') {
@@ -31,6 +32,7 @@ module.exports = function(environment) {
     // Testem prefers this...
     ENV.baseURL = '/';
     ENV.locationType = 'none';
+    ENV.DEFAULT_POLL_INTERVAL = 50;
 
     // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
