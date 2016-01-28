@@ -9,6 +9,9 @@ Router.map(function() {
   this.route('users', function() {
     this.route('detail', { path: "/:user_id" });
   });
+  this.route('tickets', function() {
+    this.route('detail', { path: "/:ticket_id" });
+  });
 });
 
 export default Router;

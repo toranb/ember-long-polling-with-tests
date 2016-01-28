@@ -9,7 +9,7 @@
     "qunit": "~1.20.0",
     "ember-qunit-notifications": "0.1.0",
     "ember-qunit": "0.4.16",
-    "fauxjax": "1.2.1",
+    "fauxjax-toranb": "1.9.0",
     "jquery": "~2.1.4"
   }
 }
